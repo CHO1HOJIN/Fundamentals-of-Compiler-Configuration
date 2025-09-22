@@ -1,0 +1,8 @@
+int f(bool b) {
+  int x = 1;
+  if (x == 1) {
+     bool x = true;
+  }
+  bool y = x;
+  return 0;
+}

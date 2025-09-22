@@ -1,0 +1,11 @@
+bool f(int n, int m) {
+  int x;
+
+  if (n < m) {
+    int v = 1 + 2 * n;
+    x = (v - 1) / 3;
+  }
+  x = v + 1;
+
+  return x;
+}

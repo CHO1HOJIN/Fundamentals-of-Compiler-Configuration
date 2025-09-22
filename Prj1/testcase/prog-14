@@ -1,0 +1,18 @@
+int *foo(int x) {
+  int i;
+  bool b;
+  int *p2 = NULL;
+  int *pi = &i;
+  bool *pb = &b;
+  
+  pi = NULL;
+  *pi = x;
+  *pb = *pi < 10;   
+  i = *pb + 5;      
+
+  if (pi) {
+    return NULL;
+  } else {
+    return pi;
+  }
+}

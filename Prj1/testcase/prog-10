@@ -1,0 +1,16 @@
+int* bar(int* x){
+  int i = 1;
+  int* pi = &i;
+  pi = x;
+  bool* pb;
+  bool b;
+  pb = &b;
+
+  pb = NULL;
+
+  if(NULL == pb){
+    return pi;
+  } else{
+    return NULL;
+  }
+}

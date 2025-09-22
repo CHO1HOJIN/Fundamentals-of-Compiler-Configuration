@@ -1,0 +1,14 @@
+int f(bool b, int i) {
+  int x = i;
+  int y = b;
+  int *a = &x;
+  int *b = &y;
+  *a = 3;
+  *a = true;
+  *a = NULL;
+  if (*a > *b) {
+    i = i - b * 2;
+  }
+
+  return 0;
+}

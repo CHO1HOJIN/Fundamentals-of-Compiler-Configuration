@@ -1,0 +1,12 @@
+bool foo(int x) {
+  int i;
+  int *pi = &i;
+  if (pi == 1) {
+    return 1;
+  } else {
+    return 2;
+  }
+  while (1){
+    return 3;
+  }
+}

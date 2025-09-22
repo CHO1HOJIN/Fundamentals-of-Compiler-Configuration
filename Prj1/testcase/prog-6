@@ -1,0 +1,14 @@
+int f(bool b) {
+  int x = 1;
+  int *p1;
+  int *p2;
+  p1 = &p2;
+
+  while (x < 10){
+    int temp = 1;
+    temp = b;
+    x = x + temp;
+  }
+  int y = x;
+  return 0;
+}

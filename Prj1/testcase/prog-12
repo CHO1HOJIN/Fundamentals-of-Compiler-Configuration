@@ -1,0 +1,28 @@
+int f() {
+    int x = 1;
+    bool b = true;
+    int *px = &x;
+    bool *pb = &b;
+
+    *px = 10;
+    *pb = false;
+
+    if (NULL == NULL){
+        return 1;
+    }
+
+    if(*px <= 10){
+        while (x > 0){
+            x = x - 1;
+        }        
+    }
+    else {
+        bool x = true;
+        while (x){
+            x = !x;
+        }
+        *pb = x;
+    }
+
+    return *px;
+}
