@@ -1,0 +1,5 @@
+int f(int x, int y) {
+  int z = NULL;
+  z = z+1;
+  return z;
+}

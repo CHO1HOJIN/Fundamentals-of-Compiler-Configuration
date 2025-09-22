@@ -1,0 +1,9 @@
+int main(int i, bool b) {
+  int x = 3;
+  x = x+1;
+  int *y = &x;
+  int z;
+  z= *y;
+ 
+  return z;
+}

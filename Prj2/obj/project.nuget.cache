@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rUkpXDh7/RU=",
+  "success": true,
+  "projectFilePath": "/Users/hjchoi/sogang/3-2/compiler/Prj2-fixed/IRGenerate.fsproj",
+  "expectedPackageFiles": [
+    "/Users/hjchoi/.nuget/packages/fsharp.core/8.0.301/fsharp.core.8.0.301.nupkg.sha512",
+    "/Users/hjchoi/.nuget/packages/fslexyacc/11.2.0/fslexyacc.11.2.0.nupkg.sha512",
+    "/Users/hjchoi/.nuget/packages/fslexyacc.runtime/11.2.0/fslexyacc.runtime.11.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
