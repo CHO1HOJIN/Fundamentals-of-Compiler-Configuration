@@ -1,0 +1,14 @@
+int g(int x, bool y) {
+  int *a;
+  bool *b;
+
+  int t = 12;
+
+  a = &x;
+  b = &y;
+
+  if(*b){
+    *a = *a * 2;
+  }
+  return *a;
+}

@@ -1,0 +1,13 @@
+int main(int x, int y) {
+  int result;
+  bool not_divisible;
+
+  result = x - y;
+
+  not_divisible = (y == 0 || (x / y) * y != x);
+  if (not_divisible) {
+    result = result + 1;
+  }
+
+  return result;
+}

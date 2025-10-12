@@ -1,0 +1,15 @@
+int prog(int i, int j) {
+    int x = i;
+    int y = j;
+    int k = x * y;
+    int p = y * x;
+    int a1 = k + 0;
+    int a2 = k - 0;
+    int a3 = 0 + k;
+    int a4 = -(0 - k);
+    int a5 = k * 1;
+    int a6 = 1 * k;
+    int a7 = k / 1;
+    int aa = a1 + a2 + a3 + a4 + a5 + a6 + a7;
+    return k + p + aa;
+}

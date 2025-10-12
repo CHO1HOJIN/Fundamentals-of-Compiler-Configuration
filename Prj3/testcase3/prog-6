@@ -1,0 +1,16 @@
+int main(int i, bool b) {
+
+  if (b == false || i < 0) {
+    return -i;
+  }
+
+  if (i != (i / 10) * 10) {
+    int *ip = &i;
+    if (ip != NULL && b) {
+      int i = 5;
+      *ip = *ip + i;
+    }
+  }
+
+  return i;
+}

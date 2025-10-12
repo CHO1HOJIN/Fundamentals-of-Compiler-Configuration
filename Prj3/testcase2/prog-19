@@ -1,0 +1,17 @@
+int func (int x, int y){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+    int arr[3];
+    arr[0] = 1;
+    a = arr[0];
+    b = arr[0];
+    c = arr[0];
+    d = arr[0];
+    e = arr[0];
+    f = arr[0];
+    return a+b+c+d+e+f;
+}

@@ -1,0 +1,7 @@
+int prog(int i) {
+    int arr[10];
+    arr[3] = 7;
+    int x = arr[3];
+    i = i + x;
+    return i;
+}

@@ -1,0 +1,27 @@
+int f(int x) {
+  int i_arr[4];
+  bool b_arr[5];
+  int n;
+  int i = 0;
+  n = 0;
+
+  i_arr[0] = 1;
+  i_arr[1] = 2;
+  i_arr[2] = 3;
+  i_arr[3] = 4;
+
+  b_arr[0] = false;
+  b_arr[1] = false;
+  b_arr[2] = false;
+  b_arr[3] = false;
+  b_arr[4] = false;
+
+  b_arr[x] = true;
+
+  while(!b_arr[i]) {
+    n = n + i_arr[i];
+    i = i + 1;
+  }
+
+  return n;
+}

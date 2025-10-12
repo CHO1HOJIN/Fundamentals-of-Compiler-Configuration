@@ -1,0 +1,23 @@
+int main(int i) {
+  bool loop_flag;
+
+  loop_flag = true;
+
+  while (loop_flag) {
+    loop_flag = false;
+    if (i < 0) {
+      i = i + 10;
+      if (i < 0) {
+        loop_flag = true;
+      } 
+    }
+    if (i >= 10) {
+      i = i - 10;
+      if (i >= 10) {
+        loop_flag = true;
+      } 
+    }
+  }
+
+  return i;
+}
